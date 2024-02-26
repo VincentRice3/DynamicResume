@@ -1,0 +1,88 @@
+﻿@model DynamicResume.ViewModels.ResumeViewModel
+@{
+    var resume = Model;
+}
+
+@{
+
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <img src="https://fakeimg.pl/200x200" class="img-fluid img-thumbnail profileImg" alt="placeholder" />
+        </div>
+        <div class="row container">
+            <div class="col-5">
+                <h3>@resume.Name</h3>
+                <h4>@resume.Title</h4>
+
+                @foreach (string socialLink in resume.ConvertStringToList(resume.SocialLinks))
+                {
+                    if (!string.IsNullOrEmpty(socialLink))
+                    {
+                        string[] links = resume.GetSocialLinks(socialLink);
+                        <a href="@links[1]">@links[0]</a>
+                    }
+                    else
+                    {
+                        <hr />
+                    }
+                }
+                <p class="mt-0.5">Mobile Number: @resume.MobileNum</p>
+                <hr />
+                <h4>About Me</h4>
+                <p>@resume.PersonalStatement</p>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-5 skillsContainer">
+                <h4>Key Skills</h4>
+                <div class="col-10">
+                    <ul class="listStyle">
+                        @foreach (string skill in resume.ConvertStringToList(resume.KeySkills))
+                        {
+                            <li>@skill</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row container">
+            <hr />
+            <div class="col-5">
+                <h3>Experience</h3>
+                 @foreach (var employment in resume.EmploymentHistory)
+                {
+                    <div class="my-4">
+                        <h5 class="mt-4">@employment.JobTitle</h5>
+                        <h6>@employment.Company</h6>
+                        <p>@employment.EmploymentDuration</p>
+                    </div>
+                } 
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-5">
+                <h3 class="mb-2">Education</h3>
+                @foreach (var education in resume.Education)
+                {
+                    <div class="my-4">
+                        <h5>@education.Title</h5>
+                        <h6>@education.Establishment</h6>
+                        <p>@education.Attended</p>
+                    </div>
+                }
+                <hr />
+                <h3>Development Projects</h3>
+                @foreach (var project in resume.DevelopmentProjects)
+                {
+                    <div class="my-4">
+                        <h5 class="mt-1">@project.Title</h5>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

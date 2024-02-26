@@ -1,0 +1,29 @@
+﻿@model DynamicResume.ViewModels.EmploymentHistoryViewModel
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var entries = Model.ListOfEmployments;
+}
+<div class="container">
+    <div class="row">
+        <h3>Work History</h3>
+    </div>
+    <div class="row container col-8">
+        @foreach (var employment in entries)
+        {
+            <div class="my-2">
+                <h5><strong>@employment.JobTitle</strong></h5>
+                <p><strong>@employment.Company</strong></p>
+                <p><strong>@employment.EmploymentDuration</strong></p>
+                @foreach (var responsibility in employment.ConvertStringToList(employment.Responsibilities))
+                {
+                    <p>@responsibility</p>
+                }
+                <p>Manager: @employment.ManagerName</p>
+                <p>@employment.ManagerEmail</p>
+            </div>
+        }
+    </div>
+</div>
