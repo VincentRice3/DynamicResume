@@ -1,6 +1,6 @@
 ﻿@model DynamicResume.ViewModels.ResumeViewModel
 @{
-    var resume = Model;
+    var resume = Model.Resume;
 }
 
 @{
@@ -17,11 +17,11 @@
                 <h3>@resume.Name</h3>
                 <h4>@resume.Title</h4>
 
-                @foreach (string socialLink in resume.ConvertStringToList(resume.SocialLinks))
+                @foreach (string socialLink in Model.ConvertStringToList(resume.SocialLinks))
                 {
                     if (!string.IsNullOrEmpty(socialLink))
                     {
-                        string[] links = resume.GetSocialLinks(socialLink);
+                        string[] links = Model.GetSocialLinks(socialLink);
                         <a href="@links[1]">@links[0]</a>
                     }
                     else
@@ -40,7 +40,7 @@
                 <h4>Key Skills</h4>
                 <div class="col-10">
                     <ul class="listStyle">
-                        @foreach (string skill in resume.ConvertStringToList(resume.KeySkills))
+                        @foreach (string skill in Model.ConvertStringToList(resume.KeySkills))
                         {
                             <li>@skill</li>
                         }

@@ -270,3 +270,4 @@ C:\Users\ricev\Desktop\Projects\DynamicResume\DynamicResume\obj\Debug\net8.0\ref
 C:\Users\ricev\Desktop\Projects\DynamicResume\DynamicResume\obj\Debug\net8.0\DynamicResume.pdb
 C:\Users\ricev\Desktop\Projects\DynamicResume\DynamicResume\obj\Debug\net8.0\DynamicResume.genruntimeconfig.cache
 C:\Users\ricev\Desktop\Projects\DynamicResume\DynamicResume\obj\Debug\net8.0\ref\DynamicResume.dll
+C:\Users\ricev\Desktop\Projects\DynamicResume\DynamicResume\obj\Debug\net8.0\DynamicResume.sourcelink.json

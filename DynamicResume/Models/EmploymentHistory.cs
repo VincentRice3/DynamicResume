@@ -40,11 +40,6 @@ namespace DynamicResume.Models
 
         }
 
-        public List<string> ConvertStringToList(string stringValue)
-        {
-            char delimiter = stringValue.Contains("ASP") ? '/' : '.';
-            return stringValue.Split(delimiter).ToList();
-        }
 
     }
 }

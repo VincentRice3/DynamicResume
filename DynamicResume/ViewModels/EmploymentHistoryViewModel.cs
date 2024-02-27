@@ -10,7 +10,7 @@ namespace DynamicResume.ViewModels
 
         public List<string> ConvertStringToList(string stringValue)
         {
-            char delimiter = stringValue.Contains("ASP") ? '/' : '.';
+            char delimiter = '/';
             return stringValue.Split(delimiter).ToList();
         }
     }
