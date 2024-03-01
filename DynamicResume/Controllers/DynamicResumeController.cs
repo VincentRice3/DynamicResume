@@ -18,8 +18,6 @@ namespace DynamicResume.Controllers
             _context = context;
         }
 
-
-
         public IActionResult DynamicResume()
         {
             var projects = _context.DevelopmentProjects.ToList();
@@ -33,14 +31,6 @@ namespace DynamicResume.Controllers
             var viewModel = GetResumeViewModel(projects, educations, employmentHistories, resumes);
             return View(viewModel);
         }
-
-        public IActionResult WorkExperience()
-        {
-            var employmentHistories = _context.EmploymentHistory.ToList();
-            var viewModel = GetEmploymentHistoryViewModel(employmentHistories);
-            return View(viewModel);
-        }
-
 
         private ResumeViewModel GetResumeViewModel(List<DevelopmentProjects> projects, List<Education> educations, List<EmploymentHistory> employmentHistories, List<ResumeData> resumes)
         {
@@ -57,12 +47,38 @@ namespace DynamicResume.Controllers
             return viewModel;
         }
 
-
+        public IActionResult WorkExperience()
+        {
+            var employmentHistories = _context.EmploymentHistory.ToList();
+            var viewModel = GetEmploymentHistoryViewModel(employmentHistories);
+            return View(viewModel);
+        }
 
         private EmploymentHistoryViewModel GetEmploymentHistoryViewModel(List<EmploymentHistory> employments)
         {
             List<EmploymentHistory> employmentHistoryModel = new(employments);
             EmploymentHistoryViewModel viewModel = new(employmentHistoryModel);
+            return viewModel;
+        }
+
+
+
+
+
+
+
+        public IActionResult Education()
+        {
+            var educations = _context.Education.ToList();
+
+            var viewModel = GetEducationViewModel(educations);
+            return View(viewModel);
+        }
+
+        public EducationViewModel GetEducationViewModel(List<Education> educations)
+        {
+            List<Education> educationViewModel = new(educations);
+            EducationViewModel viewModel = new(educationViewModel); 
             return viewModel;
         }
 

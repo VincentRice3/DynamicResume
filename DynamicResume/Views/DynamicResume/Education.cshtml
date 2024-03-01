@@ -1,5 +1,36 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model DynamicResume.ViewModels.EducationViewModel
+
 @{
+    var entries = Model.Educations;
 }
+
+
+<div class="container">
+    <div class="row">
+        <h3>Education</h3>
+    </div>
+    <div class="row container">
+        @foreach (var education in entries)
+        {
+            <div class="my-2 col-6">
+                <h5><strong>@education.Title</strong></h5>
+                <p><strong>@education.Attended</strong></p>
+                @if (education.AwardedGrade != null)
+                {
+                    <p><strong>Relevant Courses</strong></p>
+
+                    <ul>
+
+                        @foreach (var relevantCourses in Model.ConvertStringToList(education.RelevantCourses))
+                        {
+                            <li>@relevantCourses</li>
+                        }
+
+                    </ul>
+                    <p><strong>Awarded Grade: @education.AwardedGrade</strong></p>
+                    <p>@education.EduInfo</p>
+                }
+            </div>
+        }
+    </div>
+</div>
