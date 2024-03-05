@@ -1,0 +1,20 @@
+﻿@model DynamicResume.ViewModels.DevelopmentProjectsViewModel;
+@{
+    var projects = Model.DevelopmentProjects;
+
+}
+
+<div class="container">
+    <div class="row">
+        <h3>Development Projects</h3>
+    </div>
+    <div class="row container">
+        @foreach (var project in projects)
+        {
+            <div class="my-2">
+                <h5><strong>@project.Title</strong></h5>
+                <p>@project.Description</p>
+            </div>
+        }
+    </div>
+</div>

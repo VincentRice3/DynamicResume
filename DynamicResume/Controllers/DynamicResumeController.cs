@@ -61,12 +61,6 @@ namespace DynamicResume.Controllers
             return viewModel;
         }
 
-
-
-
-
-
-
         public IActionResult Education()
         {
             var educations = _context.Education.ToList();
@@ -79,6 +73,20 @@ namespace DynamicResume.Controllers
         {
             List<Education> educationViewModel = new(educations);
             EducationViewModel viewModel = new(educationViewModel); 
+            return viewModel;
+        }
+
+        public IActionResult DevelopmentProjects() 
+        {
+            var projects = _context.DevelopmentProjects.ToList();
+            var viewModel = GetDevelopmentProjectsViewModel(projects);  
+            return View(viewModel);
+        }
+
+        public DevelopmentProjectsViewModel GetDevelopmentProjectsViewModel(List<DevelopmentProjects> projects) 
+        {
+            List<DevelopmentProjects> projectsViewModel = new(projects);
+            DevelopmentProjectsViewModel viewModel = new(projectsViewModel);
             return viewModel;
         }
 
