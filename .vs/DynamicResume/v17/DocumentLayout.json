@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\views\\dynamicresume\\dynamicresume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\views\\dynamicresume\\dynamicresume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\views\\dynamicresume\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\views\\dynamicresume\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\controllers\\dynamicresumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\controllers\\dynamicresumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\viewmodels\\employmenthistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\viewmodels\\employmenthistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\views\\dynamicresume\\dynamicresume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\views\\dynamicresume\\dynamicresume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\views\\dynamicresume\\developmentprojects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\views\\dynamicresume\\developmentprojects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\views\\dynamicresume\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\views\\dynamicresume\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\views\\dynamicresume\\workexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\views\\dynamicresume\\workexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|solutionrelative:dynamicresume\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8EEBFA4-D7E9-43C6-A8F3-DDF5CDC97FC7}|DynamicResume\\DynamicResume.csproj|c:\\users\\ricev\\desktop\\projects\\dynamicresume\\dynamicresume\\viewmodels\\developmentprojectsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,30 +46,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 266,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "WorkExperience.cshtml",
+              "DocumentMoniker": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\Views\\DynamicResume\\WorkExperience.cshtml",
+              "RelativeDocumentMoniker": "DynamicResume\\Views\\DynamicResume\\WorkExperience.cshtml",
+              "ToolTip": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\Views\\DynamicResume\\WorkExperience.cshtml",
+              "RelativeToolTip": "DynamicResume\\Views\\DynamicResume\\WorkExperience.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T11:56:36.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DynamicResume\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "DynamicResume\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-05T14:08:28.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "DynamicResume\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\wwwroot\\css\\site.css",
               "RelativeToolTip": "DynamicResume\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABwAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAwFIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-03-05T09:10:26.198Z",
               "EditorCaption": ""
@@ -82,14 +95,14 @@
               "RelativeDocumentMoniker": "DynamicResume\\Views\\DynamicResume\\DynamicResume.cshtml",
               "ToolTip": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\Views\\DynamicResume\\DynamicResume.cshtml",
               "RelativeToolTip": "DynamicResume\\Views\\DynamicResume\\DynamicResume.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA8AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-05T09:08:52.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DevelopmentProjects.cshtml",
               "DocumentMoniker": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\Views\\DynamicResume\\DevelopmentProjects.cshtml",
               "RelativeDocumentMoniker": "DynamicResume\\Views\\DynamicResume\\DevelopmentProjects.cshtml",
@@ -102,19 +115,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmploymentHistoryViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\ViewModels\\EmploymentHistoryViewModel.cs",
-              "RelativeDocumentMoniker": "DynamicResume\\ViewModels\\EmploymentHistoryViewModel.cs",
-              "ToolTip": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\ViewModels\\EmploymentHistoryViewModel.cs",
-              "RelativeToolTip": "DynamicResume\\ViewModels\\EmploymentHistoryViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T08:55:54.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "DevelopmentProjectsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\ViewModels\\DevelopmentProjectsViewModel.cs",
@@ -123,12 +123,11 @@
               "RelativeToolTip": "DynamicResume\\ViewModels\\DevelopmentProjectsViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T11:57:49.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T11:57:49.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DynamicResumeController.cs",
               "DocumentMoniker": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\Controllers\\DynamicResumeController.cs",
               "RelativeDocumentMoniker": "DynamicResume\\Controllers\\DynamicResumeController.cs",
@@ -141,13 +140,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Education.cshtml",
               "DocumentMoniker": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\Views\\DynamicResume\\Education.cshtml",
               "RelativeDocumentMoniker": "DynamicResume\\Views\\DynamicResume\\Education.cshtml",
               "ToolTip": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\Views\\DynamicResume\\Education.cshtml",
               "RelativeToolTip": "DynamicResume\\Views\\DynamicResume\\Education.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-27T11:51:13.073Z",
               "EditorCaption": ""

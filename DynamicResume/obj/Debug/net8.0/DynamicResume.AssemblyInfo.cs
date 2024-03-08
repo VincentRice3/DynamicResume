@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DynamicResume")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b64c9a4d75d57f63e7717950a2b7fab0d9686c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca59d20812ba34a19b222b3124916bc48848dd60")]
 [assembly: System.Reflection.AssemblyProductAttribute("DynamicResume")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DynamicResume")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

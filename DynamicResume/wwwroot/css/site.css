@@ -11,6 +11,9 @@ main, footer {
     background-color: white;
 }
 
+nav{
+    color: white;
+}
 
 h3, h5, h4 {
     color: #359ebf;
@@ -63,3 +66,22 @@ body {
 #hideHistory {
     display: none;
 }
+
+
+@media screen and (max-width: 400px) {
+    .responsive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socialsContainer{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly !important; 
+    }
+    .col-5, .col-4, .col-8{
+        width: 100%;
+        align-items: center;
+    }
+}
+

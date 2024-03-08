@@ -12,7 +12,7 @@
     <div class="row container">
         @foreach (var education in entries)
         {
-            <div class="my-2 col-6">
+            <div class="my-2">
                 <h5><strong>@education.Title</strong></h5>
                 <p><strong>@education.Attended</strong></p>
                 @if (education.AwardedGrade != null)
@@ -28,7 +28,7 @@
 
                     </ul>
                     <p><strong>Awarded Grade: @education.AwardedGrade</strong></p>
-                    <p>@education.EduInfo</p>
+                    <p class="col-8">@education.EduInfo</p>
                 }
             </div>
         }

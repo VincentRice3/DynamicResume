@@ -13,7 +13,7 @@
             <h3>@resume.Name</h3>
             <h5 class="fw-bold">@resume.Title</h5>
         </div>
-        <div class="row d-flex align-items-center">
+        <div class="responsive row d-flex align-items-center">
 
             <div class="profileContainer col-4">
 
@@ -23,7 +23,7 @@
                 <h5 class="fw-bold">About Me</h5>
                 <p>@resume.PersonalStatement</p>
                 <div class="row">
-                    <div class="d-flex justify-content-between flex-wrap">
+                    <div class="socialsContainer d-flex justify-content-between flex-wrap">
 
 
                         @foreach (string socialLink in Model.ConvertStringToList(resume.SocialLinks))
@@ -48,7 +48,7 @@
 
         </div>
 
-        <div class="row container  mt-2">
+        <div class="responsive row container mt-2">
             <hr />
             <div class="col-5">
 
