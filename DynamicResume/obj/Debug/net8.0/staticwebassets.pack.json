@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\wwwroot\\images\\prof.jpg",
+      "PackagePath": "staticwebassets\\images\\prof.jpg"
+    },
+    {
       "Id": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

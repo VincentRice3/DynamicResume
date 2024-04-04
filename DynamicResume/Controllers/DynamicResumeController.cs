@@ -1,5 +1,4 @@
 using DynamicResume.Models;
-using DynamicResume;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using DynamicResume.ViewModels;

@@ -10,27 +10,88 @@
         <h3>Education</h3>
     </div>
     <div class="row container">
+
+        @{
+            List<Education> codecademyCerts = new List<Education> { };
+
+            foreach (var cert in entries)
+            {
+                if (cert.Establishment == "Codecademy")
+                {
+                    codecademyCerts.Add(cert);
+                }
+            }
+        }
+
         @foreach (var education in entries)
         {
-            <div class="my-2">
-                <h5><strong>@education.Title</strong></h5>
-                <p><strong>@education.Attended</strong></p>
-                @if (education.AwardedGrade != null)
-                {
-                    <p><strong>Relevant Courses</strong></p>
+            if (education.Establishment != "Codecademy")
+            {
+                <div class="my-2">
+                    <h5><strong>@education.Title</strong></h5>
+                    <p><strong>@education.Attended</strong></p>
+                    <p><strong>@education.Establishment</strong></p>
+                    @if (education.AwardedGrade != null)
+                    {
+                        <p><strong>Relevant Courses</strong></p>
 
-                    <ul>
+                        <ul>
 
-                        @foreach (var relevantCourses in Model.ConvertStringToList(education.RelevantCourses))
-                        {
-                            <li>@relevantCourses</li>
-                        }
+                            @foreach (var relevantCourses in Model.ConvertStringToList(education.RelevantCourses))
+                            {
+                                <li>@relevantCourses</li>
+                            }
 
-                    </ul>
-                    <p><strong>Awarded Grade: @education.AwardedGrade</strong></p>
-                    <p class="col-8">@education.EduInfo</p>
-                }
-            </div>
+                        </ul>
+                        <p><strong>Awarded Grade: @education.AwardedGrade</strong></p>
+                        <p class="col-8">@education.EduInfo</p>
+                    }
+                </div>
+            }
+
+
         }
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button class="btn btn-primary me-md-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Show all Codecademy achievments
+            </button>
+
+        </div>
+        <div class="row mt-2">
+
+            @foreach (var cert in codecademyCerts)
+            {
+                <div class="col-6">
+
+                    <div class="collapse" id="collapseExample">
+
+                        <div class="my-2">
+                            <h5><strong>@cert.Title</strong></h5>
+                            <p><strong>@cert.Attended</strong></p>
+                            <p><strong>@cert.Establishment</strong></p>
+                            @if (cert.AwardedGrade != null)
+                            {
+                                <p><strong>Relevant Courses</strong></p>
+
+                                <ul>
+
+                                    @foreach (var relevantCourses in Model.ConvertStringToList(cert.RelevantCourses))
+                                    {
+                                        <li>@relevantCourses</li>
+                                    }
+
+                                </ul>
+                                <p><strong>Awarded Grade: @cert.AwardedGrade</strong></p>
+                                <p class="col-8">@cert.EduInfo</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+            }
+        </div>
+
+
+
     </div>
 </div>

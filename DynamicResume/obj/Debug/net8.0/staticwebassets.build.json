@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fa+H62KX0g9aClVB8kvrrwH8fMBqM/h7XTbSFple6H4=",
+  "Hash": "E8Y191aL4Irct1JBwNfx9NQQtmJz3S2fSlU+1ha+sGQ=",
   "Source": "DynamicResume",
   "BasePath": "_content/DynamicResume",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\wwwroot\\images\\prof.jpg",
+      "SourceId": "DynamicResume",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\wwwroot\\",
+      "BasePath": "_content/DynamicResume",
+      "RelativePath": "images/prof.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\prof.jpg"
     },
     {
       "Identity": "C:\\Users\\ricev\\Desktop\\Projects\\DynamicResume\\DynamicResume\\wwwroot\\js\\site.js",
